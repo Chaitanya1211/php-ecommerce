@@ -20,8 +20,15 @@ This is a simple e-commerce website built for learning purposes using PHP, HTML,
 - JavaScript
 
 ## Project Screenshots
-- User
-User registration page
+- User Registration page
 ![User registration](./projectImages//userRegistration.png?raw=true "Title")
 
+-User Login page
+![User Login](./projectImages//userLogin.png?raw=true "Title")
+
+-User homepages
+<div style="display:flex;">
+    <img src="./projectImages/userHomepage.png" alt="Image 1" style="width:45%;">
+    <img src="./projectImages/userCategory.png" alt="Image 2" style="width:45%;">
+</div>
 
