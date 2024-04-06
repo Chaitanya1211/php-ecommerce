@@ -1,0 +1,15 @@
+.profile-item{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#profileCard{
+    padding: 60px 130px;
+}
+.item-head{
+    font-weight: 600;
+}
+th{
+    width: 30%;
+}

@@ -1,0 +1,95 @@
+#categoryHeader{
+    background-image: url(../covers/electronics.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 140px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.content{
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+#category-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+#content-wrapper{
+    display: none;
+}
+#loading{
+    display: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+.product-card{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+.band{
+    background-color: #44c7f5;
+    position: absolute;
+    width: 217px;
+    height: 400px;
+    top: -132px;
+    left: -15px;
+    transform: rotate(57deg);
+}
+.product-content{
+    position: relative;
+}
+.image-wrapper{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.image-wrapper img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-name,.product-cost{
+    color: #00144a;
+    font-size: 20px;
+    font-weight: 600;
+}
+.product-cost{
+    background: white;
+    padding: 0px 15px;
+    border-radius: 30px ;
+}
+.add-to-cart{
+    background-color: #44c7f5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+.stars{
+    font-size: 12px;
+    color: gold;
+}
+#productRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sampleCard{
+    display: none;
+    transition: 0.5s;
+}
+#sampleCard:hover {
+    transform: scale(1.05);
+}

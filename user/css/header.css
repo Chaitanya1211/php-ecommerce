@@ -1,0 +1,27 @@
+.logo-wrapper img{
+    width: 175px;
+}
+.transparent{
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 20px;
+}
+.transparent span{
+    font-weight: 600;
+}
+nav{
+    border-bottom: 1px solid #ccc;
+}
+#logoutBtn{
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 0px 25px;
+}
+#orderCount{
+    top: -10px;
+    left: -15px;
+}

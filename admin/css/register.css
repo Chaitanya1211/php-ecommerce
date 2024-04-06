@@ -1,0 +1,31 @@
+#registerBtn {
+    width: 50%;
+    margin: auto;
+    border: 2px solid #44c7f5;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+    color: #44c7f5;
+}
+
+#leftForm {
+    border-right: 1px solid #ccc;
+}
+
+#nameError,
+#numberError,
+#emailError,
+#passwordError,
+#addressError,
+#contactError,
+#gstError,
+#cpassError {
+    display: none;
+}
+#snackBarSuccess,#snackBarError{
+    top: 25%;
+    right: 17%;
+}

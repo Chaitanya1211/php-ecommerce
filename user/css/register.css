@@ -1,0 +1,17 @@
+#registerBtn {
+    width: 50%;
+    margin: auto;
+    border: 2px solid #44c7f5;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+    color: #44c7f5;
+    transition: 0.3s;
+}
+#registerBtn:hover {
+    background-color: #44c7f5;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.total-products{
+    background-color: #00a4ec;
+}
+.total-orders{
+background-color: #c56dff;
+}
+.total-sales{
+background-color: #ed9f32;
+}
+.pending-orders{
+background-color: #50df52;
+}
+.total-products, .total-orders, .total-sales, .pending-orders{
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    font-size: 25px;
+    font-weight: 600;
+}

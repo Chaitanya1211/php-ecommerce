@@ -1,0 +1,10 @@
+#header{
+    width: 100%;
+    background-color: #44c7f5;
+    padding: 15px 50px;
+}
+#user{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}

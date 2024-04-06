@@ -1,0 +1,82 @@
+.left-nav{
+    background-color: aliceblue;
+    padding: 24px 15px;
+    border-radius: 10px;
+}
+.image-wrapper{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.image-wrapper img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-details{
+    border-bottom: 1px solid #ccc;
+}
+#sampleCard{
+    position: relative;
+    overflow: hidden;
+    display: none;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+.top-left{
+    background-color: #007bff;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+}
+.bottom-right{
+    background-color: #007bff;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+}
+.status{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.no-orders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.no-orders img{
+    height: 225px;
+    width: 225px;
+}
+.no-orders p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.last, .last-updated{
+    font-size: 13px;
+    color: gray;
+}
+.last{
+    font-weight: 600;
+}
+.placed, .accepted, .shipped, .delivery, .delivered{
+    display: none;
+    margin-bottom: 5px;
+}
+.grey-line{
+    height: 1px;
+    border-radius: 2px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 2px 0px;
+}
+#badgesColumn{
+    text-align: right;
+}
