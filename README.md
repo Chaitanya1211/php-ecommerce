@@ -23,12 +23,20 @@ This is a simple e-commerce website built for learning purposes using PHP, HTML,
 - User Registration page
 ![User registration](./projectImages//userRegistration.png?raw=true "Title")
 
--User Login page
+- User Login page
 ![User Login](./projectImages//userLogin.png?raw=true "Title")
 
--User homepages
-<div style="display:flex;">
+- User homepages
+<div style="display:flex; align-items: center">
     <img src="./projectImages/userHomepage.png" alt="Image 1" style="width:45%;">
     <img src="./projectImages/userCategory.png" alt="Image 2" style="width:45%;">
 </div>
 
+- User Cart Images
+<div style="display:flex; align-items: center">
+    <img src="./projectImages/userCart.png" alt="Image 1" style="width:45%;">
+    <img src="./projectImages/userCheckout.png" alt="Image 2" style="width:45%;">
+</div>
+
+- User Orders Page
+![User Login](./projectImages//user_Order-Details.png.png?raw=true "Title")
